@@ -38,7 +38,7 @@
 	},
 	"devDependencies": {
 		"@eslint/json": "^0.13.2",
-		"@transifex/api": "^7.1.4",
+		"@transifex/api": "^7.1.5",
 		"espree": "^9.6.1",
 		"esquery": "^1.6.0",
 		"nodemon": "^3.1.10",
