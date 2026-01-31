@@ -1,0 +1,57 @@
+{
+	"title": "extension configuration schema",
+	"format": "json",
+	"type": "object",
+	"properties": {
+		"URLpath": {
+			"type": "object",
+			"additionalProperties": {
+				"type": "object",
+				"properties": {
+					"startsWith": {
+						"type": "string",
+						"description": "The path prefix for loading extensions from URLs."
+					},
+					"endsWith": {
+						"type": "string",
+						"description": "The path suffix for loading extensions from URLs."
+					}
+				},
+				"description": "The path prefix for loading extensions from URLs."
+			}
+		},
+		"basePath": {
+			"type": "string",
+			"description": "The base path for extensions.",
+			"default": "ext"
+		},
+		"metadata": {
+			"type": "object",
+			"properties": {
+				"versionColor": {
+					"type": "string",
+					"description": "The color used for version text in the extension homepage.",
+					"default": "#606060"
+				},
+				"tagColors": {
+					"type": "object",
+					"additionalProperties": {
+						"type": "object",
+						"properties": {
+							"primary": {
+								"type": "string",
+								"description": "The primary color for the tag."
+							},
+							"secondary": {
+								"type": "string",
+								"description": "The secondary color for the tag."
+							}
+						}
+					},
+					"description": "Colors for various tags used in extensions."
+				}
+			},
+			"additionalProperties": false
+		}
+	}
+}

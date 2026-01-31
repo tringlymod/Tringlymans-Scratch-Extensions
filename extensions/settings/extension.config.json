@@ -1,0 +1,31 @@
+{
+	"$schema": "./config.schema.json",
+	"URLpath": {
+		"exts": {
+			"startsWith": "exts/",
+			"endsWith": ""
+		},
+		"docs": {
+			"startsWith": "docs/",
+			"endsWith": ""
+		}
+	},
+	"basePath": "ext",
+	"metadata": {
+		"versionColor": "#606060",
+		"tagColors": {
+			"variables": {
+				"primary": "#FF8C1A",
+				"secondary": "#DB750D"
+			},
+			"language": {
+				"primary": "#0DA57A",
+				"secondary": "#05805D"
+			},
+			"address": {
+				"primary": "#7222cc",
+				"secondary": "#7010ac"
+			}
+		}
+	}
+}

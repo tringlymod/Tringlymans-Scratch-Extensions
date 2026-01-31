@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600px" height="300px">
+  <g>
+    <rect width="600" height="300" style="stroke: rgb(0, 0, 0); stroke-width: 0px; paint-order: fill markers; fill: rgb(255, 165, 0);"/>
+    <rect style="stroke: rgb(0, 0, 0); paint-order: fill markers; fill: rgb(230, 149, 0); fill-rule: nonzero; stroke-width: 0px;" x="33.928" y="16.964" width="532.144" height="266.072" rx="5" ry="5"/>
+  </g>
+  <g transform="matrix(3.30703115, 0.88611603, -0.88611603, 3.30703115, 459.50885142, 132.00000015)" style="transform-origin: 18px 18px;">
+    <path fill="#31373D" d="M4 36s-4 0-4-4V4s0-4 4-4h26c1 0 2 1 2 1l3 3s1 1 1 2v26s0 4-4 4H4z"/>
+    <path fill="#55ACEE" d="M5 19v-1s0-2 2-2h21c2 0 2 2 2 2v1H5z"/>
+    <path fill="#E1E8ED" d="M5 32.021V19h25v13s0 2-2 2H7c-2 0-2-1.979-2-1.979zM10 3s0-1 1-1h18c1.048 0 1 1 1 1v10s0 1-1 1H11s-1 0-1-1V3zm12 10h5V3h-5v10z"/>
+  </g>
+  <g transform="matrix(0.9250820279121399, 0, 0, 0.9250820279121399, -5.165431022644043, 51.93110656738281)" style="">
+    <text style="fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 74.9px; font-style: italic; white-space: pre;" x="41.295" y="90.177">SAVE</text>
+    <text style="fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 74.9px; font-style: italic; white-space: pre;" x="119.734" y="174.04">SYSTEM</text>
+  </g>
+</svg>

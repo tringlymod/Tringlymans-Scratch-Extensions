@@ -1,0 +1,26 @@
+{
+	"compilerOptions": {
+		"target": "ES2020",
+		"noEmit": true,
+		"allowJs": true,
+		"strict": false,
+		"noUncheckedIndexedAccess": false,
+		"checkJs": true,
+		"paths": {
+			// See https://github.com/turboWarp/types#using-from-npm
+			"scratch-vm": ["./.Scratch.d.ts/index.d.ts"],
+			"scratch-render": ["./.Scratch.d.ts/index.d.ts"],
+			"scratch-svg-renderer": ["./.Scratch.d.ts/index.d.ts"],
+			"scratch-render-fonts": ["./.Scratch.d.ts/index.d.ts"],
+			"scratch-storage": ["./.Scratch.d.ts/index.d.ts"],
+			"scratch-audio": ["./.Scratch.d.ts/index.d.ts"],
+			"scratch-parser": ["./.Scratch.d.ts/index.d.ts"],
+			"scratch-blocks": ["./.Scratch.d.ts/index.d.ts"]
+		}
+	},
+	"include": [
+		"./.Scratch.d.ts/types/scratch-vm-extension.d.ts",
+		"./.Scratch.d.ts/types/scratchx-extension.d.ts",
+		"extensions/**/*"
+	]
+}

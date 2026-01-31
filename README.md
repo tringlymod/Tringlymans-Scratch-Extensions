@@ -17,5 +17,3 @@ Sample projects (in the `samples` folder) are licensed under [CC-BY 4.0](./licen
 Everything else, such as the extension images, development server, and website are licensed under the [GNU General Public License version 3](licenses/GPL-3.0.txt).
 
 See [images/README.md](images/README.md) for attribution information for each image.
-# Tringlymans-Scratch-Extensions
-# Tringlymans-Scratch-Extensions
