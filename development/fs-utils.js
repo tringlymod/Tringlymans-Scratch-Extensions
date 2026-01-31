@@ -9,7 +9,7 @@ const pathUtil = require("path");
  */
 const recursiveReadDirectory = (directory) => {
 	const result = [];
-	for (const name of fs.readdirSync(directory)) {
+	for (const name of fs.readdirSync(pathUtil.join(__dirname, directory))) {
 		if (name.startsWith(".")) {
 			// Ignore .eslintrc.js, .DS_Store, etc.
 			continue;
@@ -37,7 +37,7 @@ const recursiveReadDirectory = (directory) => {
  */
 const mkdirp = (directory) => {
 	try {
-		fs.mkdirSync(directory, {
+		fs.mkdirSync(pathUtil.join(__dirname, directory), {
 			recursive: true,
 		});
 	} catch (e) {
